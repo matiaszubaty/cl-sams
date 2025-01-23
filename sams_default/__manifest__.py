@@ -106,7 +106,7 @@
         # "https://github.com/OCA/role-policy oca-role-policy",
         # "https://github.com/OCA/apps-store oca-apps-store",
         # "https://github.com/OCA/rest-framework rest-framework",
-        # "https://github.com/OCA/brand rest-brand",
+
         # "https://github.com/OCA/report-print-send oca-report-print-send",
         # "https://github.com/OCA/server-brand oca-server-brand",
         # "https://github.com/OCA/business-requirement oca-business-requirement",
@@ -140,8 +140,8 @@
         "https://github.com/adhoc-cicd/oca-stock-logistics-workflow.git sub_l10n-ar/oca-stock-logistics-workflow",
         "https://github.com/adhoc-cicd/oca-web.git sub_l10n-ar/oca-web",
 
-        # Odoomates
-        # "https://github.com/odoomates/odooapps odoomates-odooapps",
+        # Oca
+        "https://github.com/OCA/brand oca-brand",        
     ],
     # list of images to use in the form 'name image-url'
     "docker-images": [
