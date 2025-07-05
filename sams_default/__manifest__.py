@@ -1,6 +1,6 @@
 # -----------------------------------------------------------------------------------
 #
-#    Copyright (C) 2022 jeo Software  (http://www.jeosoft.com.ar)
+#    Copyright (C) 2025 jeo Software  (http://www.jeosoft.com.ar)
 #    All Rights Reserved.
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -18,8 +18,8 @@
 #
 # -----------------------------------------------------------------------------------
 {
-    "name": "sams17e",
-    "version": "17.0.1.0.0",
+    "name": "sams18e",
+    "version": "18.0.1.0.0",
     "license": "Other OSI approved licence",
     "category": "Tools",
     "summary": "Customización Sams",
@@ -41,7 +41,7 @@
     "port": "8069",
     # list of url repos to install in the form 'repo-url directory'
     "git-repos": [
-        "https://github.com/jobiols/cl-sams.git -b 17.0e",
+        "https://github.com/jobiols/cl-sams.git -b 18.0e",
 #        "git@github.com:jobiols/jeo-enterprise.git",
         # OCA
         # "https://github.com/OCA/server-tools oca-server-tools",
@@ -141,11 +141,11 @@
         "https://github.com/adhoc-cicd/oca-web.git sub_l10n-ar/oca-web",
 
         # Oca
-        "https://github.com/OCA/brand oca-brand",        
+        "https://github.com/OCA/brand oca-brand",
     ],
     # list of images to use in the form 'name image-url'
     "docker-images": [
-        "odoo jobiols/odoo-ent:17.0e",
-        "postgres postgres:14.15-alpine",
+        "odoo jobiols/odoo-ent:18.0e",
+        "postgres postgres:17.5-alpine",
     ],
 }
