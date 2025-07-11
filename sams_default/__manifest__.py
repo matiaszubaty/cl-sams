@@ -30,7 +30,7 @@
     "test": [],
     "installable": True,
     "application": True,
-    "config": [],
+    "config": ['proxy_mode = True'],
     # Here begins odoo-env manifest configuration
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     # manifest version, if omitted it is backward compatible
@@ -41,7 +41,7 @@
     "port": "8069",
     # list of url repos to install in the form 'repo-url directory'
     "git-repos": [
-        "https://github.com/jobiols/cl-sams.git -b 18.0e",
+        "https://github.com/matiaszubaty/cl-sams.git -b 18.0e",
 #        "git@github.com:jobiols/jeo-enterprise.git",
         # OCA
         # "https://github.com/OCA/server-tools oca-server-tools",
@@ -142,6 +142,10 @@
 
         # Oca
         "https://github.com/OCA/brand oca-brand",
+
+	# Addons de odoo.com
+	"https://github.com/matiaszubaty/odoo-addons.git -b 18.0e",
+
     ],
     # list of images to use in the form 'name image-url'
     "docker-images": [
