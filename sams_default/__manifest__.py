@@ -30,7 +30,7 @@
     "test": [],
     "installable": True,
     "application": True,
-    "config": [],
+    "config": ['proxy_mode = True'],
     # Here begins odoo-env manifest configuration
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     # manifest version, if omitted it is backward compatible
@@ -141,7 +141,7 @@
         "https://github.com/adhoc-cicd/oca-web.git sub_l10n-ar/oca-web",
 
         # Oca
-        "https://github.com/OCA/brand oca-brand",        
+        "https://github.com/OCA/brand oca-brand",
     ],
     # list of images to use in the form 'name image-url'
     "docker-images": [
