@@ -142,6 +142,9 @@
 
         # Oca
         "https://github.com/OCA/brand oca-brand",
+
+	# Addons de odoo.com
+	"https://github.com/matiaszubaty/odoo-addons.git odoo-addons",
     ],
     # list of images to use in the form 'name image-url'
     "docker-images": [
